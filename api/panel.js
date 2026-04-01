@@ -5,8 +5,8 @@ export default async function handler(req, res) {
     
     // Panel Info
     const API_KEY = process.env.PANEL_API_KEY; 
-    const API_URL = "https://your-panel-link.com/api/v2"; 
-    const SERVICE_ID = "123"; // Apni 500 likes wali ID yahan likhen
+    const API_URL = "https://smmpakpanels.com/api/v2"; 
+    const SERVICE_ID = "4768"; // Apni 500 likes wali ID yahan likhen
 
     try {
         let params = new URLSearchParams();

@@ -5,7 +5,7 @@ export default async function handler(req, res) {
     
     // Panel Info
     const API_KEY = process.env.PANEL_API_KEY; 
-    const API_URL = "https://smmpakpanels.com/api/v2"; 
+    const API_URL = ""; 
     const SERVICE_ID = "4768"; // Apni 500 likes wali ID yahan likhen
 
     try {
@@ -26,6 +26,6 @@ export default async function handler(req, res) {
         const data = await response.json();
         return res.status(200).json(data);
     } catch (error) {
-        return res.status(500).json({ error: "Panel API Error" });
+        return res.status(500).json({ error: "Paid likes buy karna ka lia rabta +994401879953 Whatsapp" });
     }
 }
